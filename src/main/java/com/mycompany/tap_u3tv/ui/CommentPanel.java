@@ -239,9 +239,9 @@ public class CommentPanel extends javax.swing.JPanel {
         try {
             labelLikes.setText(DBManager.countCommentLikes(comment.getId()) + " Likes");
             if (DBManager.countCommentLikesFromUser(comment.getId(), logged.getId()) > 0) {
-                iconLikes.setIcon(new ImageIcon(Paths.get("C:\\Users\\angel\\Pictures\\Therum\\i-heart-enable.png").toAbsolutePath().toString()));
+                iconLikes.setIcon(new ImageIcon(Paths.get("C:\\Users\\Jasie\\OneDrive\\Escritorio\\TapProject\\hearth_fill.png").toAbsolutePath().toString()));
             } else {
-                iconLikes.setIcon(new ImageIcon(Paths.get("C:\\Users\\angel\\Pictures\\Therum\\i-heart.png").toAbsolutePath().toString()));
+                iconLikes.setIcon(new ImageIcon(Paths.get("C:\\Users\\Jasie\\OneDrive\\Escritorio\\TapProject\\hearth.png").toAbsolutePath().toString()));
             }
         } catch (Exception e) {
             e.printStackTrace();

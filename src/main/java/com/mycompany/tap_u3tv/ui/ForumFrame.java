@@ -115,7 +115,7 @@ public class ForumFrame extends javax.swing.JFrame {
         });
         jPanel1.add(textFieldRound1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 780, 30));
 
-        panelImage1.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\icons8-search-50(1).png")); // NOI18N
+        panelImage1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jasie\\Downloads\\magnifying-glass.png")); // NOI18N
         panelImage1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 panelImage1MouseClicked(evt);
@@ -226,7 +226,6 @@ public class ForumFrame extends javax.swing.JFrame {
 
         jPanel3.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 10, 40));
 
-        panelImage2.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\i-feed.png")); // NOI18N
         panelImage2.setOpaque(false);
 
         javax.swing.GroupLayout panelImage2Layout = new javax.swing.GroupLayout(panelImage2);
@@ -263,7 +262,6 @@ public class ForumFrame extends javax.swing.JFrame {
         jLabel3.setText("New Theme");
         jPanel5.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 4, -1, -1));
 
-        panelImage3.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\i-edit.png")); // NOI18N
         panelImage3.setOpaque(false);
         panelImage3.setPreferredSize(new java.awt.Dimension(30, 30));
 
@@ -301,7 +299,6 @@ public class ForumFrame extends javax.swing.JFrame {
         jLabel4.setText("Export PDF");
         jPanel6.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 4, -1, -1));
 
-        panelImage4.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\i-pdf.png")); // NOI18N
         panelImage4.setOpaque(false);
         panelImage4.setPreferredSize(new java.awt.Dimension(30, 30));
 

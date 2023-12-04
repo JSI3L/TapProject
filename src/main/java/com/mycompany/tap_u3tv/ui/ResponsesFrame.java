@@ -112,13 +112,16 @@ public class ResponsesFrame extends javax.swing.JFrame {
 
         getContentPane().add(scrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(8, 220, 1110, 360));
 
-        btnNewComm.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\new-comm-btn.png")); // NOI18N
+        btnNewComm.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        btnNewComm.setForeground(new java.awt.Color(30, 30, 30));
+        btnNewComm.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        btnNewComm.setText("New");
         btnNewComm.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnNewCommMouseClicked(evt);
             }
         });
-        getContentPane().add(btnNewComm, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 580, -1, -1));
+        getContentPane().add(btnNewComm, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 586, 1110, 40));
 
         header.setBackground(new java.awt.Color(255, 255, 255));
         header.setForeground(new java.awt.Color(255, 255, 255));
@@ -146,7 +149,6 @@ public class ResponsesFrame extends javax.swing.JFrame {
         iconLikes.setBackground(new java.awt.Color(255, 255, 255));
         iconLikes.setForeground(new java.awt.Color(140, 140, 140));
         iconLikes.setFont(new java.awt.Font("Questrial", 0, 20)); // NOI18N
-        iconLikes.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\i-heart.png")); // NOI18N
         iconLikes.setPreferredSize(new java.awt.Dimension(30, 30));
         iconLikes.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

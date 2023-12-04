@@ -135,7 +135,6 @@ public class ThemePanel extends javax.swing.JPanel {
         iconLikes.setBackground(new java.awt.Color(255, 255, 255));
         iconLikes.setForeground(new java.awt.Color(140, 140, 140));
         iconLikes.setFont(new java.awt.Font("Questrial", 0, 20)); // NOI18N
-        iconLikes.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\i-heart.png")); // NOI18N
         iconLikes.setPreferredSize(new java.awt.Dimension(30, 30));
         iconLikes.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -171,7 +170,7 @@ public class ThemePanel extends javax.swing.JPanel {
         iconComments.setBackground(new java.awt.Color(255, 255, 255));
         iconComments.setForeground(new java.awt.Color(140, 140, 140));
         iconComments.setFont(new java.awt.Font("Questrial", 0, 20)); // NOI18N
-        iconComments.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\i-comment.png")); // NOI18N
+        iconComments.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jasie\\Downloads\\chat-bubble.png")); // NOI18N
         iconComments.setPreferredSize(new java.awt.Dimension(30, 30));
 
         javax.swing.GroupLayout iconCommentsLayout = new javax.swing.GroupLayout(iconComments);
@@ -189,7 +188,6 @@ public class ThemePanel extends javax.swing.JPanel {
 
         btnRemove.setFont(new java.awt.Font("Questrial", 0, 20)); // NOI18N
         btnRemove.setForeground(new java.awt.Color(252, 67, 52));
-        btnRemove.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\i-remove.png")); // NOI18N
         btnRemove.setText("Erase theme");
         panelRound1.add(btnRemove, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 200, -1, -1));
 
@@ -269,9 +267,9 @@ public class ThemePanel extends javax.swing.JPanel {
             labelLikes.setText(DBManager.countPostLikes(theme.getId()) + " Likes");
             labelComments.setText(DBManager.countPostComments(theme.getId()) + " Comments");
             if (DBManager.countPostLikeFromUser(theme.getId(), logged.getId()) > 0) {
-                iconLikes.setIcon(new ImageIcon(Paths.get("C:\\Users\\angel\\Pictures\\Therum\\i-heart-enable.png").toAbsolutePath().toString()));
+                iconLikes.setIcon(new ImageIcon(Paths.get("C:\\Users\\Jasie\\OneDrive\\Escritorio\\TapProject\\hearth_fill.png").toAbsolutePath().toString()));
             } else {
-                iconLikes.setIcon(new ImageIcon(Paths.get("C:\\Users\\angel\\Pictures\\Therum\\i-heart.png").toAbsolutePath().toString()));
+                iconLikes.setIcon(new ImageIcon(Paths.get("C:\\Users\\Jasie\\OneDrive\\Escritorio\\TapProject\\hearth.png").toAbsolutePath().toString()));
             }
         } catch (Exception e) {
             e.printStackTrace();

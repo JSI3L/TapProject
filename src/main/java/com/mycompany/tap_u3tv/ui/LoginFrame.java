@@ -79,6 +79,7 @@ public class LoginFrame extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(1512, 982));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        panel1.setForeground(new java.awt.Color(255, 255, 255));
         panel1.setColorPrimario(new java.awt.Color(16, 81, 213));
         panel1.setColorSecundario(new java.awt.Color(47, 132, 252));
         panel1.setPreferredSize(new java.awt.Dimension(470, 682));
@@ -99,22 +100,22 @@ public class LoginFrame extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Email");
 
+        emailField.setBackground(new java.awt.Color(47, 132, 252));
         emailField.setFont(new java.awt.Font("Questrial", 0, 18)); // NOI18N
-        emailField.setForeground(new java.awt.Color(204, 204, 204));
+        emailField.setForeground(new java.awt.Color(255, 255, 255));
         emailField.setText("email_cool@email.com");
         emailField.setBorder(null);
-        emailField.setOpaque(false);
         emailField.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 emailFieldFocusGained(evt);
             }
         });
 
+        passwordField.setBackground(new java.awt.Color(47, 132, 252));
         passwordField.setFont(new java.awt.Font("Questrial", 0, 18)); // NOI18N
-        passwordField.setForeground(new java.awt.Color(204, 204, 204));
+        passwordField.setForeground(new java.awt.Color(255, 255, 255));
         passwordField.setText("jPasswordField1");
         passwordField.setBorder(null);
-        passwordField.setOpaque(false);
         passwordField.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 passwordFieldFocusGained(evt);
@@ -125,7 +126,9 @@ public class LoginFrame extends javax.swing.JFrame {
 
         jSeparator2.setBackground(new java.awt.Color(255, 255, 255));
 
-        btnSignUp.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\new-acc.png")); // NOI18N
+        btnSignUp.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        btnSignUp.setForeground(new java.awt.Color(255, 255, 255));
+        btnSignUp.setText("Sign Up");
         btnSignUp.setPreferredSize(new java.awt.Dimension(78, 48));
         btnSignUp.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -139,7 +142,9 @@ public class LoginFrame extends javax.swing.JFrame {
             }
         });
 
-        btnEnter.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\enter-btn.png")); // NOI18N
+        btnEnter.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        btnEnter.setForeground(new java.awt.Color(255, 255, 255));
+        btnEnter.setText("Log In");
         btnEnter.setPreferredSize(new java.awt.Dimension(78, 48));
         btnEnter.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -153,10 +158,10 @@ public class LoginFrame extends javax.swing.JFrame {
             }
         });
 
+        jCheckBox1.setBackground(new java.awt.Color(47, 132, 252));
         jCheckBox1.setFont(new java.awt.Font("Questrial", 0, 12)); // NOI18N
         jCheckBox1.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox1.setText("Remember account?");
-        jCheckBox1.setOpaque(false);
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
@@ -205,7 +210,7 @@ public class LoginFrame extends javax.swing.JFrame {
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jCheckBox1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
                 .addComponent(btnEnter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnSignUp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -320,7 +325,7 @@ public class LoginFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel5MouseExited
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
-        JOptionPane.showMessageDialog(null, "App developed by Angel D'arte <github:@angelostd>");
+        JOptionPane.showMessageDialog(null, "A");
     }//GEN-LAST:event_jLabel5MouseClicked
 
     private void btnEnterMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEnterMouseClicked

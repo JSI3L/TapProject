@@ -146,7 +146,9 @@ public class RegisterFrame extends javax.swing.JFrame {
         fieldPassword.setBorder(null);
         jPanel1.add(fieldPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, 390, -1));
 
-        btnSignUp.setIcon(new javax.swing.ImageIcon("C:\\Users\\angel\\Pictures\\Therum\\signup-btn.png")); // NOI18N
+        btnSignUp.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        btnSignUp.setForeground(new java.awt.Color(11, 77, 212));
+        btnSignUp.setText("Sign Up");
         btnSignUp.setPreferredSize(new java.awt.Dimension(78, 48));
         btnSignUp.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -159,7 +161,7 @@ public class RegisterFrame extends javax.swing.JFrame {
                 btnSignUpMouseExited(evt);
             }
         });
-        jPanel1.add(btnSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 420, 360, 50));
+        jPanel1.add(btnSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 410, 80, 50));
 
         panel1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 60, 540, 510));
 
